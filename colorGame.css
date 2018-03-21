@@ -1,0 +1,74 @@
+h1{
+	text-align: center;
+	color:white;
+	background-color: steelblue;
+	margin:0px;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0px;
+}
+#first{
+	background-color: blue;
+	height: 100px;
+}
+body{
+	background-color: #232323;
+	margin:0px;
+	font-family: "Montserrat", "Avenir";
+}
+
+.square{
+	width : 30%;
+	background: purple;
+	margin:1.66%;
+	padding-top: 30%;
+	float:left; 
+	border-radius: 20%;
+	transition: background 0.6s;
+}
+#container{
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 10px;
+}
+
+
+#stripe{
+  background-color: white;
+  height:30px;
+
+  text-align: center;
+  color: black;
+}
+
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+
+#goalColor{
+	font-size: 200%;
+}
+
+button{
+	border: none;
+	background: none;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover{
+	color: white;
+	background-color: steelblue;
+}
